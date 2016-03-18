@@ -1,0 +1,25 @@
+{
+  "intents": [
+    {
+      "intent": "SetRegionIntent",
+      "slots": [
+        {
+          "name": "Region",
+          "type": "LIST_OF_REGIONS"
+        }
+      ]
+    },
+    {
+      "intent": "GetRegionIntent"
+    },
+    {
+      "intent": "InstanceCountIntent"
+    },
+    {
+      "intent": "TerminateUntaggedInstancesIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+SetRegionIntent set my region to {Region}
+SetRegionIntent set the region to {Region}
+GetRegionIntent what region is set
+GetRegionIntent what's my region
+GetRegionIntent what's the selected region
+GetRegionIntent what region is selected
+InstanceCountIntent how many instances are running
+InstanceCountIntent what's the instance count
+InstanceCountIntent what's the current instance count
+TerminateUntaggedInstancesIntent clean up untagged instances
+TerminateUntaggedInstancesIntent delete untagged instances
+TerminateUntaggedInstancesIntent clean up instances
