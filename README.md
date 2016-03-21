@@ -1,9 +1,13 @@
 # alexa-aws-administration / VoiceOps
 Do various administration tasks in your AWS account using your Amazon Echo.
 
-This project started as a demo at the Utah AWS Meetup in February 2016: [http://www.1strategy.com/blog/utah-aws-lambda-alexa/]( http://www.1strategy.com/blog/utah-aws-lambda-alexa/)
+This project started as a demo at the [Utah AWS Meetup](http://www.meetup.com/utah-aws/) in February 2016.
 
-<h2>Lambda Function</h2>
+See the blog post on the 1Strategy Blog: [http://www.1strategy.com/blog/utah-aws-lambda-alexa/]( http://www.1strategy.com/blog/utah-aws-lambda-alexa/)
+
+See a video of [this project in action on YouTube](https://www.youtube.com/watch?v=YH1P8ckFoLU).
+
+## Lambda Function
 The Lambda function is organized into "intent" handlers (with associated helper methods) with some boilerplate code for selecting the correct handler to run based on what the Alexa service determines the user is trying to do.
 
 The onIntent function maps the intent that Alexa believes the user is trying to invoke, and executes the corresponding function to handle that intent. Here's a brief summary of the intents that are currently supported:
@@ -39,6 +43,6 @@ This is where we tell the Alexa Skills Kit what our skill can do. In the "Intent
 <h3>Test</h3>
 You'll be presented with a screen that you can use to test example inputs and see what the skill returns. It can take a few seconds for the Alexa Skills Kit to build the model for use on your Echo. As soon as you see three green checkmarks on the left side, you should be good to test it out on your Echo!
 
-Congratulations, you just took your first steps into the exciting new world of VoiceOps!
+# LICENSE
 
-Obviously, there are many more features to add to this skill. Please use this as a starting point to build bigger and better skills. We're excited to see what you come up with!
+Code released under [the MIT license](https://github.com/1Strategy/alexa-aws-administration/blob/master/LICENSE).
