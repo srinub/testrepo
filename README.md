@@ -7,7 +7,7 @@ See the blog post on the 1Strategy Blog: [http://www.1strategy.com/blog/utah-aws
 
 See a video of [this project in action on YouTube](https://www.youtube.com/watch?v=YH1P8ckFoLU).
 
-## Lambda Function
+## Lambda function
 The Lambda function is organized into "intent" handlers (with associated helper methods) with some boilerplate code for selecting the correct handler to run based on what the Alexa service determines the user is trying to do.
 
 The onIntent function maps the intent that Alexa believes the user is trying to invoke, and executes the corresponding function to handle that intent. Here's a brief summary of the intents that are currently supported:
