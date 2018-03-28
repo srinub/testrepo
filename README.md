@@ -24,7 +24,7 @@ Will filter your instances and find those that are untagged (including instances
 <h2>Preparing the Lambda Function to Be an Alexa Skill</h2>
 Make sure to create the Lambda function in the "N. Virginia (us-east-1)" region, as that it is the only region that supports receiving events from Alexa Skills Kit. After saving your Lambda function, make note of the Lambda's ARN, we'll need that when we setup the Alexa Skill.
 
-In addition, we'll need the following items:
+In addition, we will need the following items:
 <h3>intents.json</h3>
 The Alexa Skills Kit needs to know what intents are available in your new skill. This is done by providing a JSON document that describes each of the intents. You may notice that the SetRegionIntent has an additional "slots" property. You can think of a "slot" as a variable that the user provides. In this case, we want the user to specify a region variable, so we know which AWS region to operate against. You'll also notice that it references a "LIST_OF_REGIONS" type. We're going to define that type now.
 <h3>LIST_OF_REGIONS</h3>
